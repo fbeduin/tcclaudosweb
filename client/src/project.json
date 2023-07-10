@@ -1,0 +1,36 @@
+{
+	"id": "laudosweb",
+	"name": "Sistema de Geração de Laudos",
+	"owner": "Fernando Beduin",
+	"version": "1.0",
+	"menus": [
+		{
+			"id": "usuarios",
+			"title": "Usuarios",
+			"target": "/usuario",
+			"description": "Lista de usuários",
+			"roles": ["Administrador"]
+		},
+		{
+			"id": "exames",
+			"title": "Exames",
+			"target": "/exame",
+			"description": "Lista de exames",
+			"roles": ["Médico"]
+		},
+		{
+			"id": "laudos",
+			"title": "Laudos",
+			"target": "/laudo",
+			"description": "Lista de laudos realizados",
+			"roles": ["Médico"]
+		},
+		{
+			"id": "edicao",
+			"title": "Editar Items",
+			"description": "Editar Items",
+			"roles": ["Médico"],
+			"submenus": []
+		}
+	]
+}

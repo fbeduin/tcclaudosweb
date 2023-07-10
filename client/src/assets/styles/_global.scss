@@ -1,0 +1,18 @@
+@include fontFace("Futura Bold", "../fonts/FuturaStdBold");
+@include fontFace("Futura Book", "../fonts/FuturaStdBook");
+@include fontFace("Futura Light", "../fonts/FuturaStdLight");
+
+button.btn-warning {
+    background-color: $cor-paleta-tangerine;
+    border-color: $cor-paleta-tangerine;
+    color: #ffffff;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+button.btn-warning:hover {
+    color: #ffffff;
+}
+
+.custom-file-input:lang(pt-BR) ~ .custom-file-label::after {
+    content: "Procurar";
+}
